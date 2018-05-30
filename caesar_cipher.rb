@@ -33,20 +33,6 @@ class CaesarCipher
                 end
 
         return cipher_letters.join("")   
-    end  
-    
-    # def initialize(string, shift = 1)
-    #     alphabet   = Array('a'..'z')
-    #     encrypter  = Hash[alphabet.zip(alphabet.rotate(shift))]
-    #     @result = string.chars.map { |c| encrypter.fetch(c, " ") }
-    # end
-
-    # def perform
-    #     @result.join
-    # end
-    
-
-
-    
+    end 
  end
 
